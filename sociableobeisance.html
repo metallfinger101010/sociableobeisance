@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sociableobeisance</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #ff5722;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #e0e0e0;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            color: #ff5722;
+        }
+        .content {
+            padding: 20px;
+        }
+        .photos, .notes {
+            margin-bottom: 40px;
+        }
+        .photo {
+            display: inline-block;
+            margin: 10px;
+            border: 2px solid #333;
+        }
+        .photo img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .note {
+            background-color: #1f1f1f;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>sociableobeisance</h1>
+    </header>
+    <nav>
+        <a href="#photos">photos</a>
+        <a href="#notes">notes</a>
+    </nav>
+    <div class="content">
+        <section id="photos" class="photos">
+            <h2>photos</h2>
+            <div class="photo">
+                <img src="photo1.jpg" alt="Фото 1">
+            </div>
+            <div class="photo">
+                <img src="photo2.jpg" alt="Фото 2">
+            </div>
+            <div class="photo">
+                <img src="photo3.jpg" alt="Фото 3">
+            </div>
+        </section>
+        <section id="notes" class="notes">
+            <h2>notes</h2>
+            <div class="note">
+                <h3>note1</h3>
+                <p>frst note</p>
+            </div>
+            <div class="note">
+                <h3>note2</h3>
+                <p>scnd note.</p>
+            </div>
+            <div class="note">
+                <h3>note3</h3>
+                <p>thrd note</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
